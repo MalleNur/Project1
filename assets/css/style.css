@@ -204,7 +204,7 @@ img{
     margin-bottom: 2.5rem;
   }
 
-  .home__social{
+  .home_social{
     position: absolute;
     top: 2rem;
     right: -1rem;
@@ -213,7 +213,7 @@ img{
     row-gap: 3.5rem;
   }
   
-  .home__social-follow{
+  .home_social-follow{
     font-weight: 500;
     font-size: 0.75rem;
     color: rgb(184, 102, 102);
@@ -221,7 +221,7 @@ img{
     transform: rotate(90deg);
   }
   
-  .home__social-follow::after{
+  .home_social-follow::after{
     content: '';
     position: absolute;
     width: 1rem;
@@ -231,18 +231,18 @@ img{
     top: 50%;
   }
   
-  .home__social-links{
+  .home_social-links{
     display: inline-flex;
     flex-direction: column;
     row-gap: .25rem;
   }
   
-  .home__social-link{
+  .home_social-link{
     font-size: 1rem;
     color: rgb(184, 102, 102);
     transition: .3s;
   }
   
-  .home__social-link:hover{
+  .home_social-link:hover{
     transform: translateX(.25rem);
   }
