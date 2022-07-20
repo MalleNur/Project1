@@ -18,3 +18,14 @@ navigationClose.addEventListener('click', () =>{
   navigationMenu.classList.remove('show_menu')
 })
 }
+
+/* Remove menu in mobile */
+
+const navigationLink = document.querySelectorAll('.navigation_link')
+
+function linkAction(){
+    const navigationMenu = document.getElementById('navigation_menu')
+    // When we click on each navigation_link, we remove the show_menu class
+    navigationMenu.classList.remove('show_menu')
+}
+navigationLink.forEach(n => n.addEventListener('click', linkAction))
