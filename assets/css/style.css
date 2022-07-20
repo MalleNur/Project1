@@ -173,3 +173,7 @@ img{
     color: rgb(184, 102, 102);
 }
 
+/* show menu */
+.show_menu{
+    right: 0;
+}
