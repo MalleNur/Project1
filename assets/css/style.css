@@ -304,3 +304,21 @@ img{
   .about_description{
     margin-bottom: 2rem;
   }
+
+  .about_information{
+    display: grid;
+    row-gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  
+  .about_information_description{
+    display: inline-flex;
+    column-gap: .5rem;
+    font-size: 0.813rem;
+  }
+  
+  .about_information_figure{
+    font-size: 1rem;
+    color: rgb(184, 102, 102);
+    margin-top: .15rem;
+  }
