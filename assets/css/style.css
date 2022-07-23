@@ -290,10 +290,11 @@ img{
   
   .about_container{
     row-gap: 2rem;
+    
   }
   
   .about_img{
-    width: 280px;
+    width: 300px;
     justify-self: center;
   }
   
@@ -303,18 +304,21 @@ img{
   
   .about_description{
     margin-bottom: 2rem;
+    text-align: center;
   }
 
   .about_information{
     display: grid;
     row-gap: 1rem;
     margin-bottom: 2.5rem;
+    text-align: center;
   }
   
   .about_information_description{
     display: inline-flex;
     column-gap: .5rem;
     font-size: 0.813rem;
+    text-align: center;
   }
   
   .about_information_figure{
@@ -342,7 +346,7 @@ img{
   
   .article_img{
     position: relative;
-    width: 120px;
+    width: 200px;
     justify-self: center;
     margin-bottom: 0.75rem;
     transition: .3s;
@@ -374,15 +378,7 @@ img{
   background-color: rgb(143, 79, 79);
 }
 
-.article_circle{
-  width: 90px;
-  height: 90px;
-  background-color: rgb(254, 220, 220);
-  border-radius: 50%;
-  position: absolute;
-  top: 18%;
-  left: 5%;
-}
+
 
 .article_card:hover .article_img{
   transform: translateY(-.5rem);
