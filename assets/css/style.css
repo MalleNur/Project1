@@ -347,3 +347,43 @@ img{
     margin-bottom: 0.75rem;
     transition: .3s;
   }
+
+.article_title,
+.article_price{
+  font-size: 0.813rem;
+  font-weight: 600;
+  color: rgb(55, 55, 55);
+}
+
+.article_title{
+  margin-bottom: .25rem;
+}
+
+.article_button{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(184, 102, 102);
+  color: #FFF;
+  padding: .25rem;
+  border-radius: .35rem;
+  font-size: 1.15rem;
+}
+
+.article_button:hover{
+  background-color: rgb(143, 79, 79);
+}
+
+.article_circle{
+  width: 90px;
+  height: 90px;
+  background-color: rgb(254, 220, 220);
+  border-radius: 50%;
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+
+.article_card:hover .article_img{
+  transform: translateY(-.5rem);
+}
