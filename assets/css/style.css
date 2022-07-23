@@ -254,9 +254,9 @@ img{
     background-color: rgb(184, 102, 102);
     color: #FFF;
     padding: 1rem 1.75rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     font-weight: 500;
-    transition: .3s;
+    transition: 0.3s;
   }
   
   .button:hover{
@@ -264,9 +264,9 @@ img{
   }
   
   .button__icon{
-    transition: .3s;
+    transition: 0.3s;
   }
   
   .button:hover .button__icon{
-    transform: translateX(.25rem);
+    transform: translateX(0.25rem);
   }
