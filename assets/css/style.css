@@ -288,4 +288,19 @@ img{
 
   /* About */
   
+  .about_container{
+    row-gap: 2rem;
+  }
   
+  .about_img{
+    width: 280px;
+    justify-self: center;
+  }
+  
+  .about_title{
+    margin-bottom: 1rem;
+  }
+  
+  .about_description{
+    margin-bottom: 2rem;
+  }
