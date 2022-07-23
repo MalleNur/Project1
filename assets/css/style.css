@@ -322,3 +322,28 @@ img{
     color: rgb(184, 102, 102);
     margin-top: .15rem;
   }
+
+  /* Article */
+
+  .article_description{
+    text-align: center;
+  }
+  
+  .article_container{
+    padding: 3rem 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem 3rem;
+  }
+  
+  .article_card{
+    display: grid;
+    position: relative;
+  }
+  
+  .article_img{
+    position: relative;
+    width: 120px;
+    justify-self: center;
+    margin-bottom: 0.75rem;
+    transition: .3s;
+  }
