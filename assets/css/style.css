@@ -278,8 +278,8 @@ img{
   }
   
   .button--link{
-    color: ;
-    font-weight: ;
+    color: rgb(184, 102, 102);
+    font-weight: 500;
   }
   
   .button--link:hover .button__icon{
