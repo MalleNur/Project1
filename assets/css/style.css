@@ -423,7 +423,7 @@ img{
   border-bottom: 1px solid rgb(207,207,207);
 }
 
-.contact__input{
+.contact_input{
   position: absolute;
   top: 0;
   left: 0;
@@ -452,4 +452,17 @@ img{
 
 .contact_area textarea{
   resize: none;
+}
+
+.contact_input:focus + .contact_label{
+  top: -.75rem;
+  left: 0;
+  font-size: 0.75rem;
+  z-index: 10;
+}
+
+.contact_input:not(:placeholder-shown).contact_input:not(:focus) + .contact_label{
+  top: -.75rem;
+  font-size: 0.75rem;
+  z-index: 10;
 }
