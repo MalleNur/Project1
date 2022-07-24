@@ -466,3 +466,30 @@ img{
   font-size: 0.75rem;
   z-index: 10;
 }
+
+/* footer */
+
+.footer_container{
+  row-gap: 3rem;
+}
+
+.footer_logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: rgb(55, 55, 55);
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 2.5rem;
+  transition: .3s;
+}
+
+.footer_logo_icon{
+  font-size: 1.15rem;
+  color: rgb(254, 220, 220);
+}
+
+.footer_logo:hover{
+  color: rgb(254, 220, 220);
+}
