@@ -304,21 +304,18 @@ img{
   
   .about_description{
     margin-bottom: 2rem;
-    text-align: center;
   }
 
   .about_information{
     display: grid;
     row-gap: 1rem;
     margin-bottom: 2.5rem;
-    text-align: center;
   }
   
   .about_information_description{
     display: inline-flex;
     column-gap: .5rem;
     font-size: 0.813rem;
-    text-align: center;
   }
   
   .about_information_figure{
@@ -382,4 +379,30 @@ img{
 
 .article_card:hover .article_img{
   transform: translateY(-.5rem);
+}
+
+/* Contact */
+
+.contact_container{
+  row-gap: 3.5rem;
+}
+
+.contact_info{
+  display: grid;
+  row-gap: 2rem;
+}
+
+.contact_subtitle{
+  font-size: 0.938rem;
+  font-weight: 500;
+  color: rgb(141, 141, 141);
+  margin-bottom: 0.5rem;
+}
+
+.contact_description{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: rgb(55, 55, 55);
+  font-weight: 500;
 }
