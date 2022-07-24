@@ -515,3 +515,16 @@ img{
   border: none;
   outline: none;
 }
+
+.footer_button{
+  padding: 1rem;
+}
+
+.footer_info{
+  display: grid;
+  row-gap: .75rem;
+}
+
+.footer_information{
+  font-size: 0.813rem;
+}
