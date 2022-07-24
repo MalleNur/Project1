@@ -343,7 +343,7 @@ img{
   
   .article_img{
     position: relative;
-    width: 200px;
+    width: 500px;
     justify-self: center;
     margin-bottom: 0.75rem;
     transition: .3s;
@@ -639,6 +639,10 @@ img{
     top: 30%;
   }
 
+  .article_img{
+    width: 500px;
+  }
+
   .footer_container{
     column-gap: 3rem;
   }
@@ -684,7 +688,7 @@ img{
     gap: 4rem 6rem;
   }
   .article_img{
-    width: 160px;
+    width: 600px;
   }
 
   .article_title,
@@ -721,6 +725,10 @@ img{
 
   .about_container{
     column-gap: 7rem;
+  }
+
+  .article_img{
+    width: 800px;
   }
 
 }
