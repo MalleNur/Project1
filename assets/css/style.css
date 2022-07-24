@@ -485,11 +485,33 @@ img{
   transition: .3s;
 }
 
-.footer_logo_icon{
+.footer_logo_figure{
   font-size: 1.15rem;
   color: rgb(254, 220, 220);
 }
 
 .footer_logo:hover{
   color: rgb(254, 220, 220);
+}
+
+.footer_title{
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer_subscribe{
+  background-color: rgb(254, 220, 220);
+  padding: .75rem;
+  display: flex;
+  justify-content: space-between;
+  border-radius: .5rem;
+}
+
+.footer_data{
+  width: 70%;
+  padding: 0 .5rem;
+  background: none;
+  color: rgb(141, 141, 141);
+  border: none;
+  outline: none;
 }
