@@ -528,3 +528,34 @@ img{
 .footer_information{
   font-size: 0.813rem;
 }
+
+.footer_social{
+  display: inline-flex;
+  column-gap: .75rem;
+}
+
+.footer_social_link{
+  font-size: 1rem;
+  color: rgb(141, 141, 141);
+  transition: .3s;
+}
+
+.footer_social_link:hover{
+  transform: translateY(-.25rem);
+}
+
+.footer_cards{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+.footer_card{
+  width: 35px;
+}
+
+.footer_copy{
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgb(207,207,207);
+  margin: 5rem 0 1rem;
+}
