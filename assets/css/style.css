@@ -411,7 +411,7 @@ img{
   font-size: 1.25rem;
 }
 
-.contact_inputs{
+.contact_datas{
   display: grid;
   row-gap: 2rem;
   margin-bottom: 2.5rem;
@@ -423,7 +423,7 @@ img{
   border-bottom: 1px solid rgb(207,207,207);
 }
 
-.contact_input{
+.contact_data{
   position: absolute;
   top: 0;
   left: 0;
@@ -454,14 +454,14 @@ img{
   resize: none;
 }
 
-.contact_input:focus + .contact_label{
+.contact_data:focus + .contact_label{
   top: -.75rem;
   left: 0;
   font-size: 0.75rem;
   z-index: 10;
 }
 
-.contact_input:not(:placeholder-shown).contact_input:not(:focus) + .contact_label{
+.contact_data:not(:placeholder-shown).contact_data:not(:focus) + .contact_label{
   top: -.75rem;
   font-size: 0.75rem;
   z-index: 10;
