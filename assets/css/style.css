@@ -581,3 +581,18 @@ img{
   }
 }
 
+@media screen and (min-width: 575px){
+  
+  .article_description{
+    padding: 0 4rem;
+  }
+  .article_container{
+    grid-template-columns: repeat(2, 170px);
+    justify-content: center;
+    column-gap: 5rem;
+  }
+
+  .footer_subscribe{
+    width: 400px;
+  }
+}
